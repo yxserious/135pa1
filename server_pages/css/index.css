@@ -1,0 +1,55 @@
+img.background{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+img.mainImage{
+    width: 300px;
+    height: auto;
+}
+
+div.header{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #E85A4F;
+    text-align: center;
+    font-size: 8vh;
+    background-color: #D8C3A5;
+    height: 10vh;
+    font-family: 'Times New Roman';
+}
+#header{
+    font-size: 6vh;
+    margin-top: 1vh;
+}
+
+body{
+    background-color: #EAE7DC;
+    font-family: arial;
+}
+
+div.mainContainer{
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 8em
+    */
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
