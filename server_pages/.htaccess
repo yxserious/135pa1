@@ -4,5 +4,5 @@ RewriteRule ^phpinfo$ phpinfo.php [NC]
 
 AuthType Basic
 AuthName "Restricted Content"
-AuthUserFile /etc/apache2/.htpasswd
+AuthUserFile "/etc/apache2/.htpasswd"
 Require valid-user
