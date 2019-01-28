@@ -6,7 +6,11 @@ Group members:
   Beier Li, bel060@ucsd.edu
   Cuong Lai, 
 
-This repository holds most of the documents we need for the website. That is, the html, css, and pictures. We also have a few other files in here, such as some of the .conf files, .htaccess, and various other files.
+This repository holds most of the documents we need for the website. That is, the html, css, and pictures. We also have a few other files in here, such as some of the .conf files, .htaccess, phpinfo, and various other files.
+
+The test.txt was just to help us test to make sure webhooks was running properly and that our servers were getting the commits made to this repository.
+
+# Report README
 
 The README written in the report is also below
 
